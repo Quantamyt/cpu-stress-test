@@ -116,7 +116,10 @@ public class CPUStressTest {
         return data;
     }
 
-    // Custom Cooley-Tukey FFT Algorithm (1D)
+    /**
+     * Custom Cooley-Tukey FFT Algorithm (1D)
+     * @author Quantamyt
+     * */
     private static void performFFT(double[] data) {
         int n = data.length;
         if (n <= 1) return;
